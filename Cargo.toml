@@ -4,3 +4,35 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+[alias]
+
+[[bin]]
+name = "vectors"
+path = "src/bin/module-3/vectors.rs"
+
+
+[[bin]]
+name = "vector-values"
+path = "src/bin/module-3/vector-values.rs"
+
+[[bin]]
+name = "vector-elements"
+path = "src/bin/module-3/vector-elements.rs"
+
+[[bin]]
+name = "hash-maps"
+path = "src/bin/module-3/hash-maps.rs"
+
+
+[[bin]]
+name = "enums"
+path = "src/bin/module-3/enums.rs"
+
+[[bin]]
+name = "enum-types"
+path = "src/bin/module-3/enums-as-types.rs"
+
+[[bin]]
+name = "applied-enums"
+path = "src/bin/module-3/applied-enums.rs"

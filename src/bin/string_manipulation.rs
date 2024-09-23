@@ -54,4 +54,12 @@ pub fn longest_word(sentence: &String) {
   println!("Longest word: {}", longest_word);
 }
 
+fn main() {
+  let sentence = String::from("Lenny jumped on Odins back and he freaked out");
+
+    // 4 - String Manipulation
+    string_manipulation();
+
+    longest_word(&sentence);
+}
 
